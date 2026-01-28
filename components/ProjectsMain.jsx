@@ -50,7 +50,7 @@ export default function ProjectsMain() {
   ];
 
   return (
-    <section className="!py-30">
+    <section className="!py-24 flex justify-center">
       <div className="custom_container mx-auto px-6">
         <div className="flex flex-col justify-center items-center gap-4 !mb-[40px]">
           <div className="w-[56%] text-center">

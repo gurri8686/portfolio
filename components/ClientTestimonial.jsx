@@ -62,7 +62,7 @@ export default function ClientTestimonial() {
     };
 
     return (
-        <main className="flex justify-center items-center !py-[50px]">
+        <main className="flex justify-center items-center !py-24">
             <section className="max-w-7xl mx-auto">
                 {/* Header */}
                 <div className="flex flex-col justify-center items-center gap-2 mb-12">
@@ -77,7 +77,7 @@ export default function ClientTestimonial() {
                 </div>
 
                 {/* Testimonials Cards - All displayed in flexbox */}
-                <div className="flex flex-wrap gap-6">
+                <div className="flex flex-wrap justify-center gap-6">
                     {testimonials.map((testimonial) => (
                         <div
                             key={testimonial.id}
