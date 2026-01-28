@@ -79,9 +79,8 @@ export default function Technologies() {
 
         {/* Heading */}
         <div className="flex flex-col items-center gap-2 !mb-10">
-          <p className="font-light text-[20px] text-[#FF7262]">STACKS</p>
           <h2 className="font-bold text-[32px] text-white">
-            Technologies I worked in
+            Technologies
           </h2>
         </div>
 

@@ -47,9 +47,6 @@ export default function ProvenResults() {
       <div className="custom_container mx-auto px-6">
         <div className="flex flex-col justify-center items-center gap-2 !mb-[40px]">
           <div className="w-[60%] text-center">
-            <p className="font-light text-[20px] text-[#FF7262]">
-              TRACK RECORD
-            </p>
             <h2 className="font-bold text-[32px]">Proven Results</h2>
             <p className="font-light text-[22px]">
               Measurable outcomes that drive business growth and operational

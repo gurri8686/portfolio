@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import Image from "next/image";
+// import Image from "next/image";
 import Projects from "./ProjectsMain";
 import ProvenResults from "./Provenresults";
 import Technologies from "./Technologies";

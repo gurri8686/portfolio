@@ -54,7 +54,6 @@ export default function ProjectsMain() {
       <div className="custom_container mx-auto px-6">
         <div className="flex flex-col justify-center items-center gap-4 !mb-[40px]">
           <div className="w-[56%] text-center">
-            <p className="font-light text-[20px] text-[#FF7262]">My work</p>
             <h2 className="font-bold text-[32px] !mb-[10px]">Projects</h2>
             <p className="font-light text-[22px]">
               Following projects showcases my skills and experience through
