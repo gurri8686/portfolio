@@ -1,10 +1,11 @@
 "use client";
 
 import React from "react";
-// import Image from "next/image";
+import Image from "next/image";
 import Projects from "./ProjectsMain";
 import ProvenResults from "./Provenresults";
 import Technologies from "./Technologies";
+import UpworkSection from "./UpworkSection";
 export const Hero = () => {
   const stats = [
     { number: "25+", label: "Projects" },
@@ -19,15 +20,15 @@ export const Hero = () => {
           <div className="flex flex-col lg:flex-row items-center gap-12">
             {/* LEFT CONTENT */}
             <div className="flex flex-col gap-5 w-full lg:w-[60%]">
-              <h1 className="font-extrabold text-[100px] leading-[100px]">
+              <h1 className="font-extrabold text-[80px] leading-[100px]">
                 Gurpreet Singh
               </h1>
 
-              <h2 className="font-extrabold text-[60px] leading-[70px] tracking-[0%] bg-gradient-to-r from-[#FEA302] to-[#FF7262] bg-clip-text text-transparent">
+              <h2 className="font-extrabold text-[45px] leading-[70px] tracking-[0%] bg-gradient-to-r from-[#FEA302] to-[#FF7262] bg-clip-text text-transparent">
                 Full Stack & Developer
               </h2>
 
-              <p className="font-bold text-[36px] leading-[46px]">
+              <p className="font-bold text-[24px] leading-[46px]">
                 Transforming Business Ideas into Scalable Digital Products That
                 Drive Revenue
               </p>
@@ -43,7 +44,15 @@ export const Hero = () => {
 
             {/* RIGHT IMAGE */}
             <div className="flex justify-center lg:justify-end w-full lg:w-[40%]">
-              <div className="w-[400px] h-[400px] lg:w-[520px] lg:h-[520px] bg-gray-300 rounded-3xl" />
+              <div className="relative w-[400px] h-[400px] lg:w-[420px] lg:h-[420px] rounded-3xl overflow-hidden">
+                <Image
+                src="/testimonials/profile.webp"
+                alt="Profile"
+                fill
+                className="object-cover"
+                priority
+                />
+              </div>
             </div>
           </div>
 
@@ -67,6 +76,9 @@ export const Hero = () => {
             </div>
           </div> */}
         </div>
+      </section>
+      <section className="bg-black text-white flex justify-center items-center py-20">
+        <UpworkSection />
       </section>
       <section className="bg-black text-white flex justify-center items-center py-20">
         <Technologies />

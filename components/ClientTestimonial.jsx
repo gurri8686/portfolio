@@ -7,7 +7,7 @@ export default function ClientTestimonial() {
             id: 1,
             name: "Emre Kaya",
             position: "Co-Founder",
-            image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=200&fit=crop",
+            image: "/testimonials/ema.jpg",
             rating: 5,
             text: "I'm extremely happy with the service provided. From planning to execution, everything was handled professionally."
         },
@@ -15,7 +15,7 @@ export default function ClientTestimonial() {
             id: 2,
             name: "Emre Kaya",
             position: "Co-Founder",
-            image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=200&fit=crop",
+            image: "/testimonials/siya.jpg",
             rating: 5,
             text: "I'm extremely happy with the service provided. From planning to execution, everything was handled professionally."
         },
@@ -23,7 +23,7 @@ export default function ClientTestimonial() {
             id: 3,
             name: "Sarah Johnson",
             position: "CEO",
-            image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200&h=200&fit=crop",
+            image: "/testimonials/ema.jpg",
             rating: 5,
             text: "Outstanding work! The team exceeded our expectations in every way. Highly recommended for anyone looking for quality service."
         },
@@ -31,7 +31,7 @@ export default function ClientTestimonial() {
             id: 4,
             name: "Michael Chen",
             position: "Director",
-            image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=200&h=200&fit=crop",
+            image: "/testimonials/siya.jpg",
             rating: 5,
             text: "Professional, efficient, and reliable. They delivered exactly what we needed on time and within budget."
         },
@@ -39,7 +39,7 @@ export default function ClientTestimonial() {
             id: 5,
             name: "Jessica Williams",
             position: "Marketing Head",
-            image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=200&h=200&fit=crop",
+            image: "/testimonials/emre.jpg",
             rating: 5,
             text: "The attention to detail and commitment to excellence is truly impressive. Would definitely work with them again."
         },
@@ -47,7 +47,7 @@ export default function ClientTestimonial() {
             id: 6,
             name: "David Martinez",
             position: "Product Manager",
-            image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=200&h=200&fit=crop",
+            image: "/testimonials/siya.jpg",
             rating: 5,
             text: "From start to finish, the experience was seamless. Great communication and fantastic results."
         }
