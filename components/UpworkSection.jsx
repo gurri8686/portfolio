@@ -4,76 +4,76 @@ import React from "react";
 
 export const UpworkSection = () => {
   return (
-    <section className="bg-[#0a0a1a] !py-30 !pt-30">
-      <div className="container mx-auto px-6">
-        <div className="grid lg:grid-cols-2 gap-8 items-center max-w-6xl mx-auto">
-          {/* LEFT SIDE - Text and CTA */}
-          <div className="space-y-6">
-            {/* Upwork Badge */}
-            <div className="flex items-center gap-3">
-              <span className="text-white text-xl">Up work with us on</span>
-              <div className="bg-[#14A800] px-6 py-3 rounded-full">
-                <span className="text-white font-bold text-2xl">Upwork</span>
+    <section className="custom_container !py-[155px]">
+      <div className="">
+        <div className="flex flex-col lg:flex-row justify-between gap-14">
+
+          {/* LEFT */}
+
+          <div className="h-[340px] flex flex-col justify-between items-start">
+
+            <div className="flex flex-col gap-[18px]">
+              <div className="flex items-center gap-6">
+                <p className="font-inter font-normal text-[30px] leading-10">Up work with us on</p>
+
+                <div className="w-[234px] h-[65px] inline-block rounded-[50px] bg-[#01CD5D] relative">
+                  <img src="upwork_logo.png" alt="UpWork Logo" className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2" />
+                </div>
               </div>
+
+              <p className="font-inter font-normal text-[30px] leading-[40px]">
+                Connect with us on upwork for top-tier solution tailored to your needs
+              </p>
             </div>
 
-            {/* Description */}
-            <p className="text-white text-lg leading-relaxed max-w-md">
-              Connect with us on upwork for top-tier solution tailored to your
-              needs
-            </p>
-
-            {/* CTA Link */}
             <a
-              href="https://www.upwork.com/freelancers/~YOUR_UPWORK_ID"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-3 text-[#EF4444] text-lg font-semibold hover:gap-4 transition-all group"
+              href="#"
+              className="font-semibold text-[30px] leading-[40px] text-[#FF7262] inline-block border-b-2 border-[#FF7262] group"
             >
-              Click here to view our Profile
-              <svg
-                className="w-6 h-6 group-hover:translate-x-1 transition-transform"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M17 8l4 4m0 0l-4 4m4-4H3"
-                />
-              </svg>
+              <span className="inline-block">
+                Click here to view our Profile
+              </span>
+              <span className="inline-block ml-2 transition-transform group-hover:translate-x-2">
+                →
+              </span>
             </a>
+
+
+
           </div>
 
-          {/* RIGHT SIDE - Stats Cards */}
-          <div className="grid grid-cols-2 gap-4">
-            {/* Card 1 - Jobs Completed */}
-            <div className="bg-gradient-to-br from-[#FF8A3D] to-[#FF6B35] rounded-3xl p-8 text-center">
-              <div className="text-white text-6xl font-bold mb-2">1800+</div>
-              <div className="text-white text-xl font-medium">
-                Job completed
-              </div>
-            </div>
+          {/* RIGHT */}
 
-            {/* Card 2 - Total Earned */}
-            <div className="bg-gray-100 rounded-3xl p-8 text-center">
-              <div className="text-gray-900 text-6xl font-bold mb-2">$9M</div>
-              <div className="text-gray-700 text-xl font-medium">
-                Total Earned
-              </div>
-            </div>
+          <div className="flex justify-center items-center gap-[30px] flex-col">
 
-            {/* Card 3 - Top Talent (Full Width) */}
-            <div className="col-span-2 bg-gray-100 rounded-3xl p-8 text-center">
-              <div className="text-gray-900 text-4xl font-bold mb-3">
+            {/* 1800 */}
+
+            <div className="flex justify-between items-center gap-[30px]">
+              <div className="bg-gradient-to-b from-[#FFA305] to-[#FF745F] text-center w-[276px] h-[191px] flex flex-col items-center justify-center rounded-[20px] gap-[13px]">
+                <h2 className="font-bold text-[60px] leading-[40px]">1800+</h2>
+                <p className="font-inter font-semibold text-[30px] leading-[40px]">Job completed</p>
+              </div>
+
+              {/* $9M */}
+
+              <div className="rounded-3xl bg-white text-center w-[276px] h-[191px] flex flex-col items-center justify-center rounded-[20px] gap-[13px]">
+                <h2 className="font-bold text-[60px] leading-[40px] text-[#424242]">$9M</h2>
+                <p className="font-inter font-semibold text-[30px] leading-[40px] text-[#424242]">Total Earned</p>
+              </div>
+           </div>
+
+            {/* Bottom wide card */}
+
+            <div className="w-[582px] h-[191px] flex flex-col items-center justify-center rounded-[20px] text-center bg-gradient-to-b from-white to-[#DADADA]">
+              <h3 className="font-inter font-bold text-[#424242] text-[42px] leading-[40px]">
                 Top 3% Talent Worldwide
-              </div>
-              <div className="text-gray-600 text-base">
+              </h3>
+
+              <p className="font-light text-[20px] text-[#424242] leading-[40px]">
                 Flexible engagements from hourly to full time
-              </div>
+              </p>
             </div>
+
           </div>
         </div>
       </div>

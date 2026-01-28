@@ -77,7 +77,7 @@ export const Hero = () => {
           </div> */}
         </div>
       </section>
-      <section className="bg-black text-white flex justify-center items-center py-20">
+      <section className="bg-[#040128] text-white flex justify-center items-center">
         <UpworkSection />
       </section>
       <section className="bg-black text-white flex justify-center items-center py-20">

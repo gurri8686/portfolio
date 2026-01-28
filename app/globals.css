@@ -54,7 +54,7 @@ button {
   transition: all 0.3s ease;
 }
 
-.custom_container{
+.custom_container {
   max-width: 1400px;
   width: 100%;
 }
@@ -72,34 +72,34 @@ button {
 
 .animate-infinite-scroll {
   animation: infinite-scroll 26s linear infinite;
-} 
+}
 
 
 
-                @keyframes infinite-scroll-ltr {
-                  from {
-                    transform: translateX(0);
-                  }
-        
-                  to {
-                    transform: translateX(-50%);
-                  }
-                }
-        
-                @keyframes infinite-scroll-rtl {
-                  from {
-                    transform: translateX(-50%);
-                  }
-        
-                  to {
-                    transform: translateX(0);
-                  }
-                }
-        
-                .animate-infinite-scroll-ltr {
-                  animation: infinite-scroll-ltr 25s linear infinite;
-                }
-        
-                .animate-infinite-scroll-rtl {
-                  animation: infinite-scroll-rtl 25s linear infinite;
-                }
+@keyframes infinite-scroll-ltr {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes infinite-scroll-rtl {
+  from {
+    transform: translateX(-50%);
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}
+
+.animate-infinite-scroll-ltr {
+  animation: infinite-scroll-ltr 25s linear infinite;
+}
+
+.animate-infinite-scroll-rtl {
+  animation: infinite-scroll-rtl 25s linear infinite;
+}
